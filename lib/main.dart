@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:habit/screens/home_screen.dart';
-
 import 'package:hive_flutter/adapters.dart';
 
 void main() async {

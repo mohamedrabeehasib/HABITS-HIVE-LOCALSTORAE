@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Navigator.of(context).pop();
   }
 
-  // delete habit
+  // delete new habit
   deleteHabit(int index) {
     setState(() => db.todayHabitList.removeAt(index));
     db.updataData();
